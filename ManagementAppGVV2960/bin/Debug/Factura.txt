@@ -1,0 +1,34 @@
+                                     SENIAT
+                                  J-40924130-0
+                                        
+                                G.V.V 2906, C.A.
+                               Sector la Barraca
+                              Calle B, Casa Nº 27
+                               Maracay-Edo Aragua
+                                  Caja: Caja1
+
+Nombre o Razon: Jose
+Rif/Doc Cliente: 123123123
+Tel: 0020200202
+Dir: Maracay  - Aragua
+Trabajador: Julio
+
+                                    FACTURA
+No Fac:                       .........................
+Fecha:30/06/2020       Hora:20:37
+
+----------------------------------------
+Articulo   Cant   P.Unit    Valor
+----------------------------------------
+                1,000      2,40       2,40
+----------------------------------------
+Sub-Total                        2,40Bsf
+Menos Descuento                  0,00Bsf
+IVA %                            2,78Bsf
+TOTAL                            2,78Bsf
+----------------------------------------
+Efectivo Entregado:              0,00Bsf
+Efectivo Devuelto:               0,00Bsf
+ 
+                         ****GRACIAS POR SU COMPRA****
+ 

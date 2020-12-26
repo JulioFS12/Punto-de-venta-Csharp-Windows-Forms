@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{080F26DB-945D-4EDE-95BF-B9687CCE5548}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Presentation</RootNamespace>
+    <AssemblyName>Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\..\..\Program Files\Tools Visual Studio\BUNIFU\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="CreaTicket.cs" />
+    <Compile Include="DsPrincipal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsPrincipal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PBlock.Designer.cs">
+      <DependentUpon>PBlock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PCaja.Designer.cs">
+      <DependentUpon>PCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PCategory.Designer.cs">
+      <DependentUpon>PCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PClient.Designer.cs">
+      <DependentUpon>PClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PLogin.Designer.cs">
+      <DependentUpon>PLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PPersonal.Designer.cs">
+      <DependentUpon>PPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PPresentations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PPresentations.Designer.cs">
+      <DependentUpon>PPresentations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PProduct.Designer.cs">
+      <DependentUpon>PProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="PSuplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PSuplier.Designer.cs">
+      <DependentUpon>PSuplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PTradeMark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PTradeMark.Designer.cs">
+      <DependentUpon>PTradeMark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PVenta.Designer.cs">
+      <DependentUpon>PVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PViewCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PViewCategory.Designer.cs">
+      <DependentUpon>PViewCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PViewClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PViewClient.Designer.cs">
+      <DependentUpon>PViewClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PViewClient2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PViewClient2.Designer.cs">
+      <DependentUpon>PViewClient2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PViewClientVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PViewClientVenta.Designer.cs">
+      <DependentUpon>PViewClientVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PViewPresentations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PViewPresentations.Designer.cs">
+      <DependentUpon>PViewPresentations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PViewProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PViewProduct.Designer.cs">
+      <DependentUpon>PViewProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PViewProductVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PViewProductVenta.Designer.cs">
+      <DependentUpon>PViewProductVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PViewSuplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PViewSuplier.Designer.cs">
+      <DependentUpon>PViewSuplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PViewTradeMark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PViewTradeMark.Designer.cs">
+      <DependentUpon>PViewTradeMark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PWelcoming.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PWelcoming.Designer.cs">
+      <DependentUpon>PWelcoming.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterProduct.Designer.cs">
+      <DependentUpon>RegisterProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportesVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportesVenta.Designer.cs">
+      <DependentUpon>ReportesVenta.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PBlock.resx">
+      <DependentUpon>PBlock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PCaja.resx">
+      <DependentUpon>PCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PCategory.resx">
+      <DependentUpon>PCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PClient.resx">
+      <DependentUpon>PClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PLogin.resx">
+      <DependentUpon>PLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PPersonal.resx">
+      <DependentUpon>PPersonal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PPresentations.resx">
+      <DependentUpon>PPresentations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PProduct.resx">
+      <DependentUpon>PProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PSuplier.resx">
+      <DependentUpon>PSuplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PTradeMark.resx">
+      <DependentUpon>PTradeMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PVenta.resx">
+      <DependentUpon>PVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PViewCategory.resx">
+      <DependentUpon>PViewCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PViewClient.resx">
+      <DependentUpon>PViewClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PViewClient2.resx">
+      <DependentUpon>PViewClient2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PViewClientVenta.resx">
+      <DependentUpon>PViewClientVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PViewPresentations.resx">
+      <DependentUpon>PViewPresentations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PViewProduct.resx">
+      <DependentUpon>PViewProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PViewProductVenta.resx">
+      <DependentUpon>PViewProductVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PViewSuplier.resx">
+      <DependentUpon>PViewSuplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PViewTradeMark.resx">
+      <DependentUpon>PViewTradeMark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PWelcoming.resx">
+      <DependentUpon>PWelcoming.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterProduct.resx">
+      <DependentUpon>RegisterProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportesVenta.resx">
+      <DependentUpon>ReportesVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\Salesreport.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DsPrincipal.xsc">
+      <DependentUpon>DsPrincipal.xsd</DependentUpon>
+    </None>
+    <None Include="DsPrincipal.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsPrincipal.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DsPrincipal.xss">
+      <DependentUpon>DsPrincipal.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\Logic.NetSalesByPeriod.datasource" />
+    <None Include="Properties\DataSources\Logic.SalesListing.datasource" />
+    <None Include="Properties\DataSources\Logic.SalesReport.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\Hamburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logic\Logic.csproj">
+      <Project>{e9edf1c3-38d8-42f0-b4d4-eaa744ea70df}</Project>
+      <Name>Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maxi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimazar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\res.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono cerrar FN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Maximizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Restaurar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscarGood.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar_p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround-Small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround-Big.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackGround-Big1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491254402-minussubtractreducediscount_82971.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\producto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGOCODE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_Group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empleados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pagos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\producto1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\venta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\producto2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\producto3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img Dash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VECTOR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mobile-Menu-Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar_p.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2849806-copy-interface-multimedia-print-printer_107972.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491254402-minussubtractreducediscount_829711.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscarGood1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoGVV.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cashier_icon-icons.com_53629.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar session.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caja_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sistema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reportes de Auditoria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder_group_white_18482.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

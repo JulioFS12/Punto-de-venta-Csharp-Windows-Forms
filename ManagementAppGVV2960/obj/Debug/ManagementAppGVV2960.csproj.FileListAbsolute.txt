@@ -1,0 +1,19 @@
+c:\users\julio\documents\visual studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\obj\Debug\ManagementAppGVV2960.Properties.Resources.resources
+c:\users\julio\documents\visual studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\obj\Debug\ManagementAppGVV2960.csproj.GenerateResource.Cache
+c:\users\julio\documents\visual studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\Presentation.dll
+c:\users\julio\documents\visual studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\Presentation.pdb
+c:\users\julio\documents\visual studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\Bunifu_UI_v1.52.dll
+c:\users\julio\documents\visual studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\Logic.dll
+c:\users\julio\documents\visual studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\Data.dll
+c:\users\julio\documents\visual studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\Logic.pdb
+c:\users\julio\documents\visual studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\Data.pdb
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\obj\Debug\ManagementAppGVV2960.csprojResolveAssemblyReference.cache
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\GVV System.exe.config
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\GVV System.exe.manifest
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\GVV System.application
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\GVV System.exe
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\bin\Debug\GVV System.pdb
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\obj\Debug\GVV System.exe.manifest
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\obj\Debug\GVV System.application
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\obj\Debug\GVV System.exe
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\ManagementAppGVV2960\obj\Debug\GVV System.pdb

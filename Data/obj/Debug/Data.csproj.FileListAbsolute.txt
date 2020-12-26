@@ -1,0 +1,8 @@
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\Data\bin\Debug\Data.dll.config
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\Data\bin\Debug\Data.dll
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\Data\bin\Debug\Data.pdb
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\Data\obj\Debug\Data.Properties.Resources.resources
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\Data\obj\Debug\Data.csproj.GenerateResource.Cache
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\Data\obj\Debug\Data.dll
+C:\Users\julio\Documents\Visual Studio 2013\Projects\ManagementAppGVV2960\Data\obj\Debug\Data.pdb
